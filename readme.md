@@ -23,3 +23,8 @@ Synthax
 	},300,function(){
 		//when animation is complete
 	})
+
+Todo
+----
+
+Easing integration.
