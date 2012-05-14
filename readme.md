@@ -10,11 +10,9 @@ Synthax
 
 .transition( properties [, duration] [, complete] )
 
-**properties** A map of CSS properties that the animation will move toward.
-
-**duration** A string or number determining how long the animation will run.
-
-**complete** A function to call once the animation is complete
+**properties** A map of CSS properties that the animation will move toward.<br/>
+**duration** A string or number determining how long the animation will run.<br/>
+**complete** A function to call once the animation is complete.<br/>
 
 
 	jQuery('#child').transition({
