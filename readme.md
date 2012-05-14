@@ -8,8 +8,7 @@ Synthax
 
 .transition() uses the same synthax as the .animate() method:
 
-.transition( properties [, duration] [, complete] )
-
+.transition( properties [, duration] [, complete] )<br/>
 **properties** A map of CSS properties that the animation will move toward.<br/>
 **duration** A string or number determining how long the animation will run.<br/>
 **complete** A function to call once the animation is complete.<br/>
