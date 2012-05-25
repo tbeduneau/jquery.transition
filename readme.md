@@ -24,4 +24,4 @@ Synthax
 Todo
 ----
 
-Easing integration.
+Easing integration for css3 browsers.
