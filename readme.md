@@ -24,4 +24,4 @@ Synthax
 Todo
 ----
 
-Easing integration for latest browsers.
+Easing integration for latest browsers only.
