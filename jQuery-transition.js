@@ -34,6 +34,7 @@
 
 	jQuery.fn.extend({
 		transition: function(o,speed,callback){
+			var lastElmt = this.last();
 			this.each(function(i,el){
 				var that = jQuery(this),
 					iStyles = 0;
@@ -49,7 +50,7 @@
 						this.style[Modernizr.prefixed('transition')] = "all "+speed+"ms ease-in-out";
 						that.one(Modernizr.transEndEventName,function(e){
 							e.currentTarget.style[Modernizr.prefixed('transition')] = "";
-							if(!!callback){
+							if(!!callback && lastElmt.is(that)){
 								callback();
 							}
 						})
